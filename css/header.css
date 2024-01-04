@@ -12,6 +12,7 @@
     justify-content: space-between;
     height: auto;
     align-items: center;
+    padding: 20px 24px 30px 24px;
 }
 
 .header__title{
@@ -23,12 +24,51 @@
 .header__logo{
     width: 60px;
     height: 60px;
-}
-
-.header__menu{
-    align-self: flex-end;
+    align-self: center;
+    justify-self: center;
 }
 
 .header__nav-list{
     font-family: "Matserat Bold", sans-serif;
+}
+.menu-btn {
+    display: flex;
+	width: 26px;
+	height: 18px;
+	position: relative;
+    align-self: flex-end;
+	z-index:2;
+	overflow: hidden;
+}
+.menu-btn span {
+	width: 24px;
+	height: 3px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: var(--ui-light-accent-color);
+	transition: all 1s;
+}
+.menu-btn span:nth-of-type(2) {
+	top: calc(50% - 5px);
+}
+.menu-btn span:nth-of-type(3) {
+	top: calc(50% + 5px);
+}
+.header__menu {	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 15px;
+    background: var(--ui-link-hover-color);
+	transform: translateX(100%);
+	transition: transform 1s; 
+}
+.header__menu.active {
+	transform: translateX(0%);
+}
+.header__menu li {
+	list-style-type: none;
 }
