@@ -24,8 +24,6 @@
 .header__logo{
     width: 60px;
     height: 60px;
-    align-self: center;
-    justify-self: center;
 }
 
 .header__nav-list{
