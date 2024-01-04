@@ -1,0 +1,43 @@
+@import url(fonts.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --ui-brand-color: #1faff9;
+    --ui-dark-accent-color: #838383;
+    --ui-dark-shade-color: #000;
+    --ui-light-shade-color: #fff;
+    --ui-light-accent-color: #2fddf5;
+    --ui-link-color: #191919;
+    --ui-link-color-light: #0b77af;
+    --ui-link-hover-color: #191919;
+    --ui-link-hover-color-light: #0b77af;
+    --font-color: #d3ebeb;
+    background-color: #000;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+h1, h2 {
+    font-family: "Montserrat Bold";
+    color: var(--font-color);
+}
+p, a{
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container-background {
+    background-color: var(--background-color); 
+}

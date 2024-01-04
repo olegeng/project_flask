@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remote PC manager</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = "containera">
+        <div class = "containera__first_background">
+            <!-- HEADER -->
+            <header class="header container">
+                <div class="header__background">
+                    <div class="header__wrapper">
+                        <div data-include="header__content.partial.html"></div>
+                    </div>
+            </header>
+            <section data-include="main-capture.partial.html"></section>
+        </div>
+        <section data-include="arguments.partial.html"></section>
+    </div>
+    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+</body>
+</html>

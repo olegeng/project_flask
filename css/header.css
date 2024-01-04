@@ -1,0 +1,34 @@
+.containera__first_background{
+    background-color: var(--ui-dark-shade-color); /* Replace with your desired background color */
+    background-image: url('../img/fp-background.png'); /* Replace 'path-to-your-image.jpg' with the actual path to your image file */
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    /* Additional styles as needed */
+}
+
+.header__center{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    align-items: center;
+}
+
+.header__title{
+    display: flex;
+    font-family: 'Montserrat-Bold';
+    font-size: 20px;
+}
+
+.header__logo{
+    width: 60px;
+    height: 60px;
+}
+
+.header__menu{
+    align-self: flex-end;
+}
+
+.header__nav-list{
+    font-family: "Matserat Bold", sans-serif;
+}
