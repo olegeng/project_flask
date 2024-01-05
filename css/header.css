@@ -23,8 +23,7 @@
 
 .header__logo{
     width: 60px;
-    height: 60px;
-}
+    height: 60px;}
 
 .header__nav-list{
     font-family: "Matserat Bold", sans-serif;
@@ -66,6 +65,7 @@
 }
 .header__menu.active {
 	transform: translateX(0%);
+	z-index: 1;
 }
 .header__menu li {
 	list-style-type: none;
