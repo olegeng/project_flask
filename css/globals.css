@@ -13,11 +13,12 @@
     --ui-light-shade-color: #fff;
     --ui-light-accent-color: #2fddf5;
     --ui-link-color: #191919;
+    --button-background-color: #191919e0;
     --ui-link-color-light: #0b77af;
     --ui-link-hover-color: #191919;
     --ui-link-hover-color-light: #0b77af;
     --font-color: #d3ebeb;
-    background-color: #000;
+    --background-color: #131010fd;
 }
 
 img {
