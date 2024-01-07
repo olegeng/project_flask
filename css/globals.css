@@ -19,6 +19,7 @@
     --ui-link-hover-color-light: #0b77af;
     --font-color: #d3ebeb;
     --background-color: #131010fd;
+    --background-capt: #1310105b;
 }
 
 img {
@@ -37,11 +38,51 @@ p, a{
 
 .container {
     max-width: 1200px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
 }
 
 .container-background{
     background-color: var(--background-color);
+}
+
+.button {
+    position: relative;
+    font-family: 'Montserrat Regular';
+    border-radius: 46px;
+    background-color: #2fddf5; /* Ваш початковий колір кнопки */
+    padding: 10px 20px;
+    text-align: center;
+    overflow: hidden;
+    transition: background-color 0.3s ease; /* Плавне змінення колір під час переливання */
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background: rgba(0, 191, 255, 0.5);
+    border-radius: 56px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.button:hover {
+    background-color: #29c8e9; /* Ваш колір при наведенні */
+}
+
+.button:hover::before {
+    opacity: 1;
+}
+li {
+    list-style-type: none;
+    /* Убираем маркеры */
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
 }

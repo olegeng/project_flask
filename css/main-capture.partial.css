@@ -28,35 +28,3 @@
     height: 46px;
     font-size: 18px;
 }
-
-.button {
-    position: relative;
-    font-family: 'Montserrat Regular';
-    border-radius: 46px;
-    background-color: #2fddf5; /* Ваш початковий колір кнопки */
-    padding: 10px 20px;
-    text-align: center;
-    overflow: hidden;
-    transition: background-color 0.3s ease; /* Плавне змінення колір під час переливання */
-}
-
-.button::before {
-    content: "";
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    right: -10px;
-    bottom: -10px;
-    background: rgba(0, 191, 255, 0.5);
-    border-radius: 56px;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.button:hover {
-    background-color: #29c8e9; /* Ваш колір при наведенні */
-}
-
-.button:hover::before {
-    opacity: 1;
-}
