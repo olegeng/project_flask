@@ -1,0 +1,22 @@
+.footer-background{
+    background-color: var(--ui-dark-shade-color); /* Replace with your desired background color */
+    background-image: url('../img/footer-back.png'); /* Replace 'path-to-your-image.jpg' with the actual path to your image file */
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    /* Additional styles as needed */
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--ui-light-shade-color);
+    font-size: medium;
+}
+
+
+.footer__soc{
+    width: 70px;
+    height: 70px;
+}
