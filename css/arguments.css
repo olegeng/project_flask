@@ -28,10 +28,20 @@
 }
 .argumnts__carr-img{
     height: 200px;
-    width: 80%;
+    width: 70%;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: rgba(0,0,0,1);
 }
-
+.carousel-control-prev{
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-control-next{
+    margin-right: auto;
+    margin-left: auto;
+}
 .carousel-caption {
     position: absolute;
     left: 50%;

@@ -31,9 +31,13 @@ h1, h2 {
     font-family: "Montserrat Bold";
     color: var(--font-color);
 }
-p, a{
+p, a, h3{
     color: var(--font-color);
     text-decoration: none;
+    margin-bottom: 0;
+}
+label{
+    margin-bottom: 0;
 }
 
 .container {
