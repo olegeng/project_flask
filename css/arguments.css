@@ -62,6 +62,9 @@
 }
 
 @media(min-width: 976px){
+    .arguments__args{
+        height: 520px;
+    }
     .arguments__wrapper{
         justify-content: center;
         height: 400px;
@@ -76,8 +79,10 @@
         margin-right: auto;
         background-color: rgba(0,0,0,1);
     }
-    .arguments__arg{
-        display: flex;
-        flex-direction: column;
+    .carousel-indicators{
+        margin-top: 60px;
+    }
+    .arguments__arg-button{
+        padding-top: 65px;
     }
 }
